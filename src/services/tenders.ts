@@ -1,7 +1,6 @@
 import type { TenderList } from '../types/tender';
 
-const DEFAULT_API_BASE = 'https://redtender.operator.kg';
-const API_BASE = import.meta.env.VITE_API_BASE_URL || DEFAULT_API_BASE;
+const API_BASE = 'https://redtender.operator.kg';
 const TENDERS_ENDPOINT = '/api/v1/tenders/';
 
 export interface FetchTendersOptions {
