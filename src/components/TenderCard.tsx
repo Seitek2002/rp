@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Tender } from '../types/tender';
 import { getStatusMeta, formatDateTime } from '../utils/format';
 
