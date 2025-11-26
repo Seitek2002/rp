@@ -7,13 +7,4 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  server: {
-    proxy: {
-      '/api': {
-        target: 'https://redtender.operator.kg',
-        changeOrigin: true,
-        secure: true,
-      },
-    },
-  },
 });
